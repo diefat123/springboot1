@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "per",
+      "type": "springdemo.pojo.Person",
+      "sourceType": "springdemo.pojo.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "per.age",
+      "type": "java.lang.Integer",
+      "sourceType": "springdemo.pojo.Person",
+      "defaultValue": 0
+    },
+    {
+      "name": "per.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "springdemo.pojo.Person"
+    },
+    {
+      "name": "per.name",
+      "type": "java.lang.String",
+      "sourceType": "springdemo.pojo.Person"
+    }
+  ],
+  "hints": []
+}
