@@ -10,14 +10,47 @@
 		<link href="/asserts/css/bootstrap.min.css" rel="stylesheet">
 		<!-- Custom styles for this template -->
 		<link href="/asserts/css/signin.css" rel="stylesheet">
+		<script  src="/asserts/js/jquery-3.5.1.js"></script>
+		<script>
+			function a1(){
+				$.post({
+					url:"/login",
+					data:{'name':$("#name").val()},
+					success:function (data) {
+						if (data.toString()=='OK'){
+							$("#userInfo").css("color","green");
+						}else {
+							$("#userInfo").css("color","red");
+						}
+						$("#userInfo").html(data);
+					}
+				});
+			}
+			function a2(){
+				$.post({
+					url:"/login",
+					data:{'password':$("#password").val()},
+					success:function (data) {
+						if (data.toString()=='OK'){
+							$("#pwdInfo").css("color","green");
+						}else {
+							$("#pwdInfo").css("color","red");
+						}
+						$("#pwdInfo").html(data);
+					}
+				});
+			}
+
+		</script>
 	</head>
 
 	<body class="text-center">
+
 		<form class="form-signin" th:action="@{/login}">
 			<img class="mb-4" src="asserts/img/bootstrap-solid.svg" alt="" width="72" height="72">
 			<h1 class="h3 mb-3 font-weight-normal" th:text="#{login.tip}">Please sign in</h1>
 
-			<p style="color: red" th:text="${msg}" th:if="${not #strings.isEmpty(msg)}"/>
+			<p th:text="${msg}" style="color: red"></p>
 
 			<label class="sr-only" th:text="#{login.username}">Username</label>
 			<input type="text" name="username" class="form-control" th:placeholder="#{login.username}" required="" autofocus="">
@@ -29,7 +62,7 @@
         </label>
 			</div>
 			<button class="btn btn-lg btn-primary btn-block" type="submit" th:value="#{login.sign}">Sign in</button>
-			<p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+			<p class="mt-5 mb-3 text-muted">© 2020-2021</p>
 			<a class="btn btn-sm">中文</a>
 			<a class="btn btn-sm">English</a>
 		</form>

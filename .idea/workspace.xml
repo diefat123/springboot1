@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/emp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/asserts/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,18 +54,22 @@
     <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\static\asserts\js" />
+      <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\mapper" />
+      <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\templates\order" />
+      <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\templates\emp" />
+      <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="springdemo.config" />
+      <recent name="springdemo.pojo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\templates\error" />
       <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\templates\emp" />
       <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\static" />
       <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources" />
-      <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\static\asserts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\templates\emp" />
-      <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\static" />
-      <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\templates" />
-      <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\static\asserts\css" />
       <recent name="D:\Software\IntelliJ IDEA 2019.3.3\项目\springboot3\src\main\resources\static\asserts" />
     </key>
   </component>
@@ -124,7 +129,13 @@
       <workItem from="1623135109114" duration="10015000" />
       <workItem from="1623311672964" duration="9405000" />
       <workItem from="1623650916020" duration="27857000" />
-      <workItem from="1623733366069" duration="4026000" />
+      <workItem from="1623733366069" duration="5296000" />
+      <workItem from="1624347738574" duration="243000" />
+      <workItem from="1624352015378" duration="3633000" />
+      <workItem from="1624436422045" duration="8365000" />
+      <workItem from="1624513754723" duration="17084000" />
+      <workItem from="1624704440260" duration="11648000" />
+      <workItem from="1624954845684" duration="5521000" />
     </task>
     <servers />
   </component>
@@ -140,10 +151,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623318114738" />
-    <state x="765" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1623653275649">
+    <state x="765" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1624456350888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1623653275649" />
+    <state x="765" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1624456350888" />
     <state x="689" y="306" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1623312319499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,46 +163,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="559" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622552935262" />
+    <state x="679" y="14" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1624532965087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="14" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624532965087" />
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623173096332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623173096332" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1623738549450">
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1624441953799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623738549450" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1623738549450">
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624441953799" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1624962200724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623738549450" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1623738549450">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624962200724" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1624962200724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623738549450" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1623738549450">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624962200724" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1624962200724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623738549450" />
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1623738549450">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624962200724" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1624962200724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623738549450" />
-    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1623738549450">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624962200724" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1624962200724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623738549450" />
-    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1623738549450">
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624962200724" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1624962200724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623738549450" />
-    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1623738549450">
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624962200724" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1624962200724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623738549450" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624962200724" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1624962200724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624962200724" />
     <state x="463" y="164" key="SettingsEditor" timestamp="1623316670493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623316670493" />
+    <state x="334" y="227" key="new project wizard" timestamp="1623770096681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="227" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1623770096681" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1623147240096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
